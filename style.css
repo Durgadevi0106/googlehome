@@ -9,7 +9,7 @@ body{
 }
 .header{
     padding: 10px;
-    margin: 15px;
+    margin: 10px;
     font-size: 1.1rem;
     display: flex;
     align-items: baseline;
@@ -49,7 +49,7 @@ body{
     font-size: medium;
 }
 img{
-    width:200px;
+    width:220px;
     position: relative;
     top:5px;
     margin-bottom:25px;
@@ -161,7 +161,7 @@ p:hover{
 }
 @media screen and (width <= 500px) {
     .header{
-        font-size: 12px;
+        font-size: 14px;
         justify-content: flex-end;
     }
     .flask,.apps{
@@ -172,13 +172,14 @@ p:hover{
         top:6px;
     }
     img{
-        width: 100px;
+        width: 150px;
         margin-bottom:5px;
+        top: 15px;
     }
     .searchbar{
         width:300px; 
         position: relative; 
-        top: 20px;
+        top: 25px;
         left: 15vw;
     }
     .searchicon{
@@ -194,20 +195,21 @@ p:hover{
      }
     .search{
         width:180px;
-        font-size: 10px; 
+        font-size: 14px; 
     }
     .button p{
         padding: 2px;
         font-size:12px;
     }
     .location{
-        bottom:6%;
+        bottom:5%;
         font-size: 1rem;
         padding: 3px;
     }
     .foot{
         align-items: baseline;
         justify-content: space-evenly;
+        padding: 3px;
     }
     .advert,.settings,.business,.privacy,.terms{
         font-size: 14px;
